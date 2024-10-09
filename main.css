@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h3,
+section h2,
+form button {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+header,input,textarea {
+    padding: 32px 0;  
+    background-color:rgba(0, 0, 0, 0.7);
+    color:azure ;   
+    
+}
+
+body {
+    background-image: url("./imagens/Fundo da pagina.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header img {
+    height: 100px;
+    margin-top: 0;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li a {
+    color:azure;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+    
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.brands-list img {
+    height: 48px;    
+}
+
+.audi-logo {
+    width: 100px; 
+    height: auto;   
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section {
+    padding: 24px 0;
+    color:azure;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.hind-medium {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.social-links img {
+    height: 32px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    color:black;   
+    flex-direction:row;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.color-fontadjust,
+.color-fontadjust h3 {
+    color:black;
+    cursor:text;
+    text-decoration:none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+section p {
+    margin-left: 0px;
+}
+
+form button {
+    background-color: azure; /* Cor de fundo padrão do botão */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    padding: 10px 20px; /* Adiciona espaçamento interno para um botão mais "clicável" */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+form button:hover {
+    background-color:gray; /* Cor de fundo quando o botão é hover */
+}
+
+input:focus, textarea:focus {
+    outline-color:azure;
+}
+
+section .color-fontadjust {
+    border: none; /* Remove a borda do iframe */   
+    text-decoration: none;
+}
+
+footer {
+    color:red;    
+    cursor: default;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section .carro1 {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display:flex;
+}
+
+section .carro1 li {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+section .carro1 img {
+    width: 600px; /* Largura da imagem */
+    height: 300px; /* Altura da imagem */ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section .carro2 {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display:flex;
+}
+
+section .carro2 li {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+section .carro2 img {
+    width: 600px; /* Largura da imagem */
+    height: 300px; /* Altura da imagem */
+    object-fit: cover; /* Mantém a proporção e corta o excesso */
+}
+
+section .carro3 {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display:flex;
+}
+
+section .carro3 li {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+section .carro3 img {
+    width: 600px; /* Largura da imagem */
+    height: 300px; /* Altura da imagem */  
+}
+
+section .carro4 {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display:flex;
+}
+
+section .carro4 li {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+section .carro4 img {
+    width: 600px; /* Largura da imagem */
+    height: 300px; /* Altura da imagem */
+    object-fit: cover; /* Mantém a proporção e corta o excesso */
+}
+
+section .descricao1 {
+    max-width: 600px;
+    margin: 0;
+    font-size: 18px;
+}
+
+section .descricao2 {
+    max-width: 600px;
+    margin: 0;
+    font-size: 18px;
+}
+
+section .descricao3{
+    max-width: 600px;
+    margin: 0;
+    font-size: 18px;
+}
+
+section .descricao4 {
+    max-width: 600px;
+    margin: 0;
+    color:black;
+    font-size: 18px;    
+}
+
+.carros-title {
+    margin: 40px 0 20px; /* Espaçamento acima e abaixo do título */
+    text-align:center;
+    font-size: 28px;
+}
+
+section .contato {
+    color: black;
+    font-size: 28px;
+}
+
+section .Sobre {
+    font-size: 28px;
+}
+
+section .texto {
+    font-size: 28px;
+}
+
+#about {
+    font-size: 20px;
+}
+
